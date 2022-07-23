@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/")
 public class Hellocontroller {
 
-    @GetMapping
+	@GetMapping
     public String hello() {
-        return "Hello Pedro Dio, Java";
+        return "Hello Pedro Dio, Java Devs";
     }
     
 }
