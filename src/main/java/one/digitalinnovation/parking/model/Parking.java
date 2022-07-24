@@ -66,7 +66,7 @@ public class Parking {
         this.color = color;
     }
 
-    public LocalDateTime getEntryDate() {
+    public LocalDateTime getEntryDate(LocalDateTime now) {
         return entryDate;
     }
 
