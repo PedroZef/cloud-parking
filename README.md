@@ -17,7 +17,7 @@ The following guides illustrate how to use some features concretely:
 
 ## Run Database
 
-* docker run --name par king-db -p 5432:5432 -e POSTGRES_DB=parking -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123 -d postgres:postgres
+* docker run --name par king-db -p 5432:5432 -e POSTGRES_DB=parking -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123 -d postgres: postgres
 
 ## Utilizando Docker Desktop
 
