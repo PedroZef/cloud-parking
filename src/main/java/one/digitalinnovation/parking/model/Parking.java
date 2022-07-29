@@ -1,11 +1,12 @@
 package one.digitalinnovation.parking.model;
 
-import org.springframework.stereotype.Service;
-
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.time.LocalDateTime;
 
-@Service
+@Entity
 public class Parking {
+    @Id
     private String id;
     private String license;
     private String state;
@@ -66,7 +67,7 @@ public class Parking {
         this.color = color;
     }
 
-    public LocalDateTime getEntryDate(LocalDateTime now) {
+    public LocalDateTime getEntryDate() {
         return entryDate;
     }
 
@@ -74,7 +75,7 @@ public class Parking {
         this.entryDate = entryDate;
     }
 
-    public LocalDateTime getExitDate() {
+    public LocalDateTime getExitDate(LocalDateTime now) {
         return exitDate;
     }
 
