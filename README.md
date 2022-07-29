@@ -15,11 +15,11 @@ The following guides illustrate how to use some features concretely:
 * [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
 * [Building REST services with Spring](https://spring.io/guides/tutorials/rest/)
 
+## Utilizando Docker Desktop
+
 ## Run Database
 
 * docker run --name par king-db -p 5432:5432 -e POSTGRES_DB=parking -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=123 -d postgres: postgres
-
-## Utilizando Docker Desktop
 
 ## Start and Stop
 * Stop Database
